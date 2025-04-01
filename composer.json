@@ -1,0 +1,24 @@
+{
+    "name": "Sultanul-Arefin/laravel-sum-package",
+    "description": "A simple Laravel package to add two integers.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sultan\\LaravelSumPackage\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sultan\\LaravelSumPackage\\SumServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
