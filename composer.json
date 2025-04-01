@@ -1,5 +1,5 @@
 {
-    "name": "Sultanul-Arefin/laravel-sum-package",
+    "name": "sultanul-arefin/laravel-sum-package",
     "description": "A simple Laravel package to add two integers.",
     "type": "library",
     "autoload": {
